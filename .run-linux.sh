@@ -1,0 +1,1 @@
+nasm -felf64 src/*.asm -o out/linux/obj/g.o && zig cc -target x86_64-linux -Os -s out/linux/obj/g.o -o out/linux/bin/g && ./out/linux/bin/g

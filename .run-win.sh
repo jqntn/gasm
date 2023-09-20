@@ -1,0 +1,1 @@
+nasm -fwin64 src/*.asm -o out/win/obj/g.obj && zig cc -target x86_64-windows -Os -s out/win/obj/g.obj -o out/win/bin/g.exe && ./out/win/bin/g

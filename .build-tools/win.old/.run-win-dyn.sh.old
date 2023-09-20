@@ -1,0 +1,1 @@
+./.build-tools/win/nasm -fwin64 src/*.asm -o out/win/obj/g.obj && ./.build-tools/win/golink -console -entry:main out/win/obj/g.obj msvcrt.dll -fo:out/win/bin/g.exe && ./out/win/bin/g

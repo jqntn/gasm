@@ -1,0 +1,1 @@
+https://github.com/ziglang/zig/wiki/Install-Zig-from-a-Package-Manager
